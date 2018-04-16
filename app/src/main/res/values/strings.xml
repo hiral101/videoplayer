@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">News Magazine</string>
+
+    <!--main activity-->
+    <string name="mainActivity_english">English</string>
+    <string name="mainActivity_french">French</string>
+    <string name="mainActivity_espanyol">Espanyol</string>
+
+    <!--verification activity-->
+    <string name="verifiActivity__title">Please Enter Verification Code</string>
+    <string name="verifiActivity_hint">Enter verification code</string>
+    <string name="verifiActivity_submit">Submit</string>
+    <string name="verifiActivity_dialog">Oops. The verification code is not correct. Please try again.</string>
+
+    <!--selection Activity-->
+    <string name="sectionActivity_title">Please Select Selection A or Selection B</string>
+    <string name="sectionActivity_btna">Selection A\n(Older Magazines)</string>
+    <string name="sectionActivity_btnb">Selection B\n(Newer Magazines)</string>
+
+    <!--confirm activity-->
+    <string name="activityConfirm_yes">Yes</string>
+    <string name="activityConfirm_no">No, Go Back</string>
+    <string name="magazineActicity_title">What Best Describes Your Intrest in Magazines</string>
+    <string name="magazineActicity_cooking">Cooking</string>
+    <string name="magazineActicity_comicscomedy">Comics and Comedy</string>
+    <string name="magazineActicity_science">Science</string>
+    <string name="magazineActicity_cars">Cars</string>
+    <string name="magazineActicity_music">Music</string>
+    <string name="magazineActicity_entertainment">Leisure and Entertainment</string>
+    <string name="animationActivity_title">Touch Anywhere to Begin</string>
+    <string name="animationActivity_btn">Touch Here to Begin!</string>
+    <string name="activityForm_or">OR</string>
+    <string name="activityForm_tcard">Tap card</string>
+    <string name="formActivity_text">Please Enter your Full Name and Phone\nNumber:</string>
+    <string name="activityForm_firstname">Firstname</string>
+    <string name="activityForm_lastname">Lastname</string>
+    <string name="activityForm_reference">Reference</string>
+    <string name="activityForm_phone">Phone</string>
+</resources>

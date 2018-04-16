@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreeLight"
+    android:padding="0dp"
+    tools:context="newsmagazine.com.newsmagazine.ui.AnimationActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_touch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/animationActivity_title"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/colorRedDark"
+            android:padding="@dimen/_20sdp"
+            android:text="@string/animationActivity_btn"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_16sdp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ll_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:elevation="@dimen/_2sdp" />
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/shape_btn_animation"
+            android:elevation="@dimen/_10sdp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_20sdp" />
+    </FrameLayout>
+
+</RelativeLayout>
